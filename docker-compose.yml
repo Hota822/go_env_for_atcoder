@@ -1,0 +1,7 @@
+version: '3'
+services:
+    go:
+        build: ./docker_files
+        tty: true
+        volumes:
+            - ./src:/opt/go/
